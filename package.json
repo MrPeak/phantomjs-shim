@@ -1,0 +1,30 @@
+{
+  "name": "phantomjs-shim",
+  "version": "0.1.0",
+  "description": "ES5, html5 api support form phantomjs sandbox",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:MrPeak/phantomjs-shim.git"
+  },
+  "keywords": [
+    "phantomjs",
+    "shim",
+    "es5",
+    "css3",
+    "html5"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "author": "mrpeak",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.5.1",
+    "classlist-polyfill": "^1.0.3",
+    "es5-shim": "^4.5.9"
+  }
+}
